@@ -2,7 +2,7 @@
 // @name          GB Reddit
 // @description   Style & Layout modification for Reddit
 // @match         https://*.reddit.com/*
-// @version       1.1
+// @version       1.2
 // @updateURL     https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @downloadURL   https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @grant         GM.addStyle
@@ -20,7 +20,7 @@ body {
   max-width: 0;
 }
 
-.thing {
+.thing.thing {
   position: relative;
   background-color: #161618;
   border: 1px solid #242428;
@@ -28,15 +28,15 @@ body {
   margin: 4px 0;
 }
 
-.child .thing {
+.child .thing.thing {
 border: unset;
 }
 
-.thing .title {
+.thing .title.title {
     color: #F4EEE0;
 }
 
-a.author {
+a.author.author {
   color: #bd8774;
 }
 
@@ -49,7 +49,7 @@ background: #161618!important;
 color: white!important;
 }
 
-.side {
+.side.side {
   z-index: 1;
   position: relative;
   max-width: min(300px, calc(100vw - 850px));
