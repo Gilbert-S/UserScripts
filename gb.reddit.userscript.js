@@ -2,7 +2,7 @@
 // @name          GB Reddit
 // @description   Style & Layout modification for Reddit
 // @match         https://*.reddit.com/*
-// @version       1.3
+// @version       1.4
 // @updateURL     https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @downloadURL   https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @grant         GM.addStyle
@@ -137,13 +137,13 @@ body.comments-page .side {
     background-color: #0000001f;
 }
 
-.usertext-body .md.md {
+.usertext-body.usertext-body .md.md.md {
     background: #242428;
     border-radius: 2px;
     border: 0px;
 }
 
-.comment .child, .comment .showreplies {
+.comment .child, .comment .showreplies.showreplies.showreplies {
     border-left: unset;
 }
 
