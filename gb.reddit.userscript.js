@@ -2,7 +2,7 @@
 // @name          GB Reddit
 // @description   Style & Layout modification for Reddit
 // @match         https://*.reddit.com/*
-// @version       1.4
+// @version       1.5
 // @updateURL     https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @downloadURL   https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @grant         GM.addStyle
@@ -143,7 +143,7 @@ body.comments-page .side {
     border: 0px;
 }
 
-.comment .child, .comment .showreplies.showreplies.showreplies {
+.comment .child.child.child, .comment .showreplies.showreplies.showreplies {
     border-left: unset;
 }
 
