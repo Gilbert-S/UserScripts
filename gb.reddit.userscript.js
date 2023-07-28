@@ -2,13 +2,18 @@
 // @name          GB Reddit
 // @description   Style & Layout modification for Reddit
 // @match         https://*.reddit.com/*
-// @version       1.5
+// @version       1.6
 // @updateURL     https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @downloadURL   https://github.com/Gilbert-S/UserScripts/raw/main/gb.reddit.userscript.js
 // @grant         GM.addStyle
 // ==/UserScript==
 
 const styles = `
+
+#header {
+  filter: hue-rotate(180deg) invert(1);
+  zoom: 1.2;
+}
 
 body {
   background-color:  black!important;
